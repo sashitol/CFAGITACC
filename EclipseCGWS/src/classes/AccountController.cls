@@ -3,6 +3,7 @@ public class AccountController {
 //testing gain
 
 //new person change 
+//
 @AuraEnabled
     public static List<Account> getAccountsA()
     {
@@ -17,4 +18,4 @@ public class AccountController {
             WHERE Location__Latitude__s != NULL AND Location__Longitude__s != NULL
             LIMIT 50];
     }
-        }
+}
